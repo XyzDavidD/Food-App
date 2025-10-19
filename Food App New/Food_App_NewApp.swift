@@ -11,7 +11,8 @@ import SwiftUI
 struct Food_App_NewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
+                .preferredColorScheme(.light)
         }
     }
 }
